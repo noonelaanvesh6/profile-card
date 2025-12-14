@@ -83,6 +83,8 @@ pre{
     margin-bottom: 20px;
     transition: transform 0.3s ease;
     cursor: pointer;
+    object-fit: cover;
+    image-rendering: auto;
 }
 
 .avatar:hover{
@@ -177,6 +179,9 @@ p{
     overflow: hidden;
     transform-style: preserve-3d;
     transition: transform 0.4s ease, box-shadow 0.4s ease;
+    box-shadow:
+        0 15px 35px rgba(0, 0, 0, 0.5),
+        inset 0 0 0 1px rgba(255, 255, 255, 0.08);
 }
 
 /* Glow layer */
@@ -225,5 +230,13 @@ p,
     }
 
 }
+
+@media (hover: none) {
+    .card:hover {
+        transform: none;
+        box-shadow: 0 15px 35px rgba(0, 0, 0, 0.5);
+    }
+}
+
 
 
