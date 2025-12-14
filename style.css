@@ -24,7 +24,7 @@ body {
     height: 100vh;
     display: grid;
     place-items: center;
-    background: linear-gradient(to top, rgba(0, 0, 0, 0.3) 50%, rgba(0, 0, 0, 0.3) 50%), url("images/Background.jpg");
+    background: linear-gradient(to top, rgba(0, 0, 0, 0.3) 50%, rgba(0, 0, 0, 0.3) 50%), url("Background.jpg");
     background-position: center;
     background-size: cover;
     font-family: 'Montserrat', sans-serif;
@@ -223,4 +223,5 @@ p,
     .card:hover {
         transform: none;
     }
+
 }
